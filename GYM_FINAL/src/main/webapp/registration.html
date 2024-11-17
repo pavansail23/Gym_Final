@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="img-form">
+        
+        <div class="form">
+            <form action="register_membership">
+                <table>
+                    <tr>
+                        <td class="reg-name">REGISTER</td>
+                    </tr>
+                    <tr>
+                    
+                        <td><input type="text" name="name" class="ip" placeholder="Name" size="30"></td>
+                    </tr>
+                    <tr>
+                       
+                        <td><input type="text" name="phone_num" class="ip" placeholder="Phone-num" maxlength="10" size="30"></td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input type="text" name="email" class="ip" placeholder="Email" size="30"></td>
+                    </tr>
+                    <tr>
+                        
+                        <td>
+                            <select size="0" class="ip-select" name="mem" >
+                                <option disabled selected class="onle-white">Membership</option>
+                                <option value="1 month">1 Month</option>
+                                <option value="3 months">3 Months</option>
+                                <option value="6 months">6 Months</option>
+                                <option value="1 year">1 Year</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td>
+                            <select size="0" class="ip-select" name="pt" >
+                                <option disabled selected class="onle-white">Personal-Training</option>
+                                <option value="yes">yes</option>
+                                <option value="no">no</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="reset" value="RESET" class="ip-rs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="submit" value="SUBMIT" class="ip-rs"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
